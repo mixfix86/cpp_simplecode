@@ -4,11 +4,14 @@ using namespace std;
 
 int main()
 {
+	// Локализация на русский 
 	setlocale(LC_ALL, "Rus");
 
+
+	/* Объявление переменных */
 	int a, b, c;
 
-	cout << "Введите число 1!:";
+	cout << "Введите число 1:";
 	cin >> a;
 	cout << "Введите число 2:";
 	cin >> b;
