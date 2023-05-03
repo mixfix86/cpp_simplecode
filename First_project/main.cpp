@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-	system("chcp 1251");
+	setlocale(LC_ALL, "Rus");
 
 	int a, b, c;
 
-	cout << "¬ведите число 1!:";
+	cout << "¬ведите число 1:";
 	cin >> a;
 	cout << "¬ведите число 2:";
 	cin >> b;
