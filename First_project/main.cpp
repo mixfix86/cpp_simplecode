@@ -2,16 +2,13 @@
 
 using namespace std;
 
-#include<iostream>
-using namespace std;
-
 int main()
 {
-	setlocale(LC_ALL, "Rus");
+	system("chcp 1251");
 
 	int a, b, c;
 
-	cout << "¬ведите число 1!:";
+	cout << "¬ведите число 1:";
 	cin >> a;
 	cout << "¬ведите число 2:";
 	cin >> b;
